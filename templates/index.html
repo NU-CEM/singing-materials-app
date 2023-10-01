@@ -1,0 +1,14 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+<div class="container">
+    <div class="header">
+        <h1>Singing Materials</h1>
+        <h4><a href="https://github.com/nu-cem/singing-materials-app/">About</a></h4>
+    </div>
+</br>
+    {{ wtf.quick_form(form) }}
+    
+</div>
+{% endblock %}
